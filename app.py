@@ -242,12 +242,12 @@ def predict():
                       New_Delhi = 0
                       
         prediction = model.predict([[Air_India, GoAir, IndiGo, Jet_Airways, Jet_Airways_Business,
-       Multiple_carriers, Multiple_carriers_Premium_economy, SpiceJet,
-       Trujet, Vistara, Vistara_Premium_economy, Chennai, Delhi,
-       Kolkata, Mumbai, Cochin, Delhi, Hyderabad, Kolkata,
-       New_Delhi, Total_Stops,Journey_day, Journey_month,
-       Dep_Time_hrs, Dep_Time_min, Arrival_Time_hrs, Arrival_Time_min,
-       Duration_hours, Duration_minute]])
+                                    Multiple_carriers, Multiple_carriers_Premium_economy, SpiceJet,
+                                    Trujet, Vistara, Vistara_Premium_economy, Chennai, Delhi,
+                                    Kolkata, Mumbai, Cochin, Delhi, Hyderabad, Kolkata,
+                                    New_Delhi, Total_Stops,Journey_day, Journey_month,
+                                    Dep_Time_hrs, Dep_Time_min, Arrival_Time_hrs, Arrival_Time_min,
+                                    Duration_hours, Duration_minute]])
               
         output=round(prediction[0],2)
         if output<=0:
@@ -262,8 +262,8 @@ def predict():
 
     
     
-#if __name__=="__main__":
-#    app.run(debug=True)  
 if __name__=="__main__":
-    app.run(host='0.0.0.0',port=8080)
+    app.run(debug=True)  
+#if __name__=="__main__":
+#    app.run(host='0.0.0.0',port=8080)
         
