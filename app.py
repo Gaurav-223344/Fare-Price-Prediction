@@ -250,21 +250,15 @@ def predict():
                                     Duration_hours, Duration_minute]])
               
         output=round(prediction[0],2)
-        if output<=0:
-            return render_template('index.html',prediction_texts="Please enter correct information")
-        else:
-            return render_template('index.html',prediction_texts=f"Price = {output}")
+        
+        return render_template('index.html',prediction_texts=f"Price = {output}")
     
         
         
-    else:
-        return render_template('index.html')
+    return render_template('index.html')
 
-    
-    
 if __name__=="__main__":
-        app.run(debug=True) 
+    app.run(debug=True) 
         
-# if __name__=="__main__":
-#    app.run(host='0.0.0.0',port=8080)
+
         
