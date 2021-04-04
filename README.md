@@ -1,5 +1,5 @@
 # Fare Price Prediction
-[<img target="_blank" src="https://github.com/Gaurav-223344/Fare-Price-Prediction/blob/main/static/img/demo.jpg" >]
+<img target="_blank" src="https://github.com/Gaurav-223344/Fare-Price-Prediction/blob/main/static/img/demo.jpg" width=350>
 
 # Diabetes-Prediction-for-Womens (Practice Project)
 
