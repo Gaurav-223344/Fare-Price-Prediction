@@ -1,5 +1,5 @@
 # Fare Price Prediction
-[<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>]
+[<img target="_blank" src="https://github.com/Gaurav-223344/Fare-Price-Prediction/blob/main/static/img/demo.jpg" >]
 
 # Diabetes-Prediction-for-Womens (Practice Project)
 
@@ -17,10 +17,10 @@
 
 
 ## Overview
-This is a diabetes prediction Flask app. The trained model takes input as number of pregnancies the patient has had, their height and weight, insulin level, age, glucose, blood-pressure, skinthickness, diabetes pedigree function etc and predict patient have diabetes or not.
+This is Flask app for prediction of flight fare. The trained model takes input as Airline, Depature time of flight, Arrival time of flight, Total steps, Source and Destination and predict price of flight.
 
 ## Motivation
-This is just a practice micro project to build a machine learning model to accurately predict whether or not the patients have diabetes or not? For this I used dataset which is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. All patients here are females at least 21 years old of Pima Indian heritage.
+This is flight fare prediction application to accurately predict price of flight
 
 ## Technical Aspect
 This project is divided into two part:
@@ -77,10 +77,13 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 │   └── index.html
 ├── static
 │   └── img
-│       └── img.jpg
-├── model.pkl
-├── Pima Indian ---Diabetes Prediction.ipynb
-├── diabetes.csv
+│       ├── img.jpg
+│       └── demo.jpg
+├── flight_rf_1.pkl
+├── .gitattributes.txt
+├── Fare prediction.ipynb
+├── Data_Train.csv
+├── Test_set.csv
 ├── requirements.txt
 ├── Procfile
 └── README.md
@@ -98,4 +101,4 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 
 
 ## Credits
-- [Pima Indians Diabetes Dataset(Kaggle)](https://www.kaggle.com/uciml/pima-indians-diabetes-database) - This project wouldn't have been possible without this dataset. It saved my enormous amount of time while collecting the data. A huge shout-out to [Krish-Naik](https://github.com/krishnaik06) for amazing guidlines from his youtube videos on end to end projects with deployement. [check here](https://www.youtube.com/playlist?list=PLZoTAELRMXVPUyxuK8AphGMuIJHTyuWna)
+- [Airlines Fare Prediction Dataset(Kaggle)](https://www.kaggle.com/absin7/airlines-fare-prediction) - This project wouldn't have been possible without this dataset. It saved my enormous amount of time while collecting the data. Also huge shout-out to [Krish-Naik](https://github.com/krishnaik06) and [Amar Mandal](https://github.com/Mandal-21)
