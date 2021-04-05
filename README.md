@@ -1,9 +1,9 @@
 # Fare Price Prediction
-<img target="_blank" src="https://github.com/Gaurav-223344/Fare-Price-Prediction/blob/main/static/img/demo1.png" width=500>
 
-# Diabetes-Prediction-for-Womens (Practice Project)
 
 ## Table of Content
+  * [Screenshots of Application](#screenshots-of-application)
+  * [Teableau Dashboard](#teableau-dashboard)
   * [Overview](#overview)
   * [Motivation](#motivation)
   * [Technical Aspect](#technical-aspect)
@@ -14,6 +14,11 @@
   * [Technologies Used](#technologies-used)
   * [Team](#team)
   * [Credits](#credits)
+
+## Screenshots of Application
+<img target="_blank" src="https://github.com/Gaurav-223344/Fare-Price-Prediction/blob/main/static/img/demo1.png" width=700>
+
+## Teableau Dashboard
 
 
 ## Overview
