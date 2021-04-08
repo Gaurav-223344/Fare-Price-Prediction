@@ -24,9 +24,11 @@
 Some screnshots of Dashboard
 
 Sceenshot 1 : 
+
 <img target="_blank" src="https://raw.githubusercontent.com/Gaurav-223344/Fare-Price-Prediction/main/static/img/teableau%20flight%20fare%20ss1.png" width=700>
 
 Sceenshot 2 : 
+
 <img target="_blank" src="https://raw.githubusercontent.com/Gaurav-223344/Fare-Price-Prediction/main/static/img/teableau%20flight%20fare%20ss2.png" width=700>
 
 
