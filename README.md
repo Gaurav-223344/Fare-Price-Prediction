@@ -21,7 +21,7 @@
 
 
 ## Teableau Dashboard
-Some screnshots of Dashboard
+Some screenshots of Dashboard
 
 Sceenshot 1 : 
 
