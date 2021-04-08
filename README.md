@@ -21,8 +21,9 @@
 ## Teableau Dashboard
 Some screnshots of Dashboard
 
-<img target="_blank" src="https://raw.githubusercontent.com/Gaurav-223344/Fare-Price-Prediction/main/static/img/teableau%20flight%20fare%20ss1.png" width=700>
-<img target="_blank" src="https://raw.githubusercontent.com/Gaurav-223344/Fare-Price-Prediction/main/static/img/teableau%20flight%20fare%20ss2.png" width=700>
+1.  <img target="_blank" src="https://raw.githubusercontent.com/Gaurav-223344/Fare-Price-Prediction/main/static/img/teableau%20flight%20fare%20ss1.png" width=700>
+
+2.  <img target="_blank" src="https://raw.githubusercontent.com/Gaurav-223344/Fare-Price-Prediction/main/static/img/teableau%20flight%20fare%20ss2.png" width=700>
 
 
 ## Overview
