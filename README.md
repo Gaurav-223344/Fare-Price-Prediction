@@ -1,4 +1,4 @@
-# Fare Price Prediction
+# Flight Fare Prediction
 
 
 ## Table of Content
