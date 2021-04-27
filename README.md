@@ -3,7 +3,6 @@
 
 ## Table of Content
   * [Screenshots of Application](#screenshots-of-application)
-  * [Teableau Dashboard](#teableau-dashboard)
   * [Overview](#overview)
   * [Motivation](#motivation)
   * [Technical Aspect](#technical-aspect)
@@ -17,20 +16,7 @@
 
 ## Screenshots of Application
 
-<img target="_blank" src="https://github.com/Gaurav-223344/Fare-Price-Prediction/blob/main/static/img/demo1.png" width=700>
-
-
-## Teableau Dashboard
-Some screenshots of Dashboard
-
-Sceenshot 1 : 
-
-<img target="_blank" src="https://raw.githubusercontent.com/Gaurav-223344/Fare-Price-Prediction/main/static/img/teableau%20flight%20fare%20ss1.png" width=700>
-
-Sceenshot 2 : 
-
-<img target="_blank" src="https://raw.githubusercontent.com/Gaurav-223344/Fare-Price-Prediction/main/static/img/teableau%20flight%20fare%20ss2.png" width=700>
-
+<img target="_blank" src="https://github.com/Gaurav-223344/Fare-Price-Prediction/blob/main/static/img/demo1.png" width=700
 
 ## Overview
 This is Flask app for prediction of flight fare. The trained model takes input as Airline, Depature time of flight, Arrival time of flight, Total steps, Source and Destination and predict price of flight.
