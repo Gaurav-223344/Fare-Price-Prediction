@@ -2,7 +2,7 @@
 
 
 ## Table of Content
-  * [Screenshots of Application](#screenshots-of-application)
+   * [Screenshots of Application](#screenshots-of-application)
   * [Overview](#overview)
   * [Motivation](#motivation)
   * [Technical Aspect](#technical-aspect)
@@ -11,8 +11,9 @@
   * [Deployement on Heroku](#deployement-on-heroku)
   * [Directory Tree](#directory-tree)
   * [Technologies Used](#technologies-used)
-  * [Team](#team)
-  * [Credits](#credits)
+  * [Contributor](#contributor)
+  * [TODO](#todo)
+  * [Acknowledgements](#acknowledgements)
 
 ## Screenshots of Application
 
@@ -38,32 +39,21 @@ pip install -r requirements.txt
 ## Run
 > STEP 1
 #### Linux and macOS User
-Open `.bashrc` or `.zshrc` file and add the following credentials:
+Open terminal :
 ```bash
-export AWS_ACCESS_KEY="your_aws_access_key"
-export AWS_SECRET_KEY="your_aws_secret_key"
-export ICP_BUCKET='your_aws_bucket_name'
-export ICP_BUCKET_REGION='bucket_region'
-export ICP_UPLOAD_DIR='bucket_path_to_save_images'
-export ICP_PRED_DIR='bucket_path_to_save_predictions'
-export ICP_FLASK_SECRET_KEY='anything_random_but_unique'
-export SENTRY_INIT='URL_given_by_sentry'
+$ python3 app.py
 ```
-Note: __SENTRY_INIT__ is optional, only if you want to catch exceptions in the app, else comment/remove the dependencies and code associated with sentry in `app.py`
+This sources will help you to run this project:\
+for macOS user : https://www.maketecheasier.com/run-python-script-in-mac \
+for Linux user : https://www.educative.io/edpresso/how-to-run-a-python-script-in-linux
 
 #### Windows User
-Since, I don't have a system with Windows OS, here I collected some helpful resource on adding User Environment Variables in Windows.
-
-__Attention__: Please perform the steps given in these tutorials at your own risk. Please don't mess up with the System Variables. It can potentially damage your PC. __You should know what you're doing__. 
-- https://www.tenforums.com/tutorials/121855-edit-user-system-environment-variables-windows.html
-- https://www.onmsft.com/how-to/how-to-set-an-environment-variable-in-windows-10
-
-> STEP 2
-
-To run the app in a local machine, shoot this command in the project directory:
+Open Command Prompt :
 ```bash
-gunicorn wsgi:app
+$ python3 app.py
 ```
+This will help you if you are windows user and also a beginner :
+https://github.com/pettarin/python-on-windows
 
 ## Deployement on Heroku
 Set the environment variable on Heroku as mentioned in _STEP 1_ in the __Run__ section. [[Reference](https://devcenter.heroku.com/articles/config-vars)]
@@ -98,9 +88,12 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 
 [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) 
 
-## Team
+## Contributor
 [Gaurav-Gaikwad](https://github.com/Gaurav-223344)
 
+## TODO
 
-## Credits
+#### Better FrontEnd
+
+## Acknowledgements
 - [Airlines Fare Prediction Dataset(Kaggle)](https://www.kaggle.com/absin7/airlines-fare-prediction) - This project wouldn't have been possible without this dataset. It saved my enormous amount of time while collecting the data. Also huge shout-out to [Krish-Naik](https://github.com/krishnaik06) and [Amar Mandal](https://github.com/Mandal-21)
